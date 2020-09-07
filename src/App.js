@@ -4,6 +4,7 @@ import './App.css';
 
 function App () {
   console.log('1234');
+  var aaa = '12345';
   return (
     <div className="App">
       <header className="App-header">
