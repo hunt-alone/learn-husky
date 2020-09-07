@@ -22,9 +22,9 @@ module.exports = {
     URL: true
   },
   rules: {
-    'no-console': 'off',
-    'no-alert': 0, //禁止使用alert confirm prompt
-    'no-var': 0, //禁用var，用let和const代替
+    'no-console': 1,
+    'no-alert': 1, //禁止使用alert confirm prompt
+    'no-var': 1, //禁用var，用let和const代替
     'no-catch-shadow': 2, //禁止catch子句参数与外部作用域变量同名
     'default-case': 2, //switch语句最后必须有default
     'dot-notation': [0, { allowKeywords: true }], //避免不必要的方括号

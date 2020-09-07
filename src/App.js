@@ -1,10 +1,19 @@
+/*
+ * @Descripttion:
+ * @version:
+ * @Author: hunt
+ * @Date: 2020-09-07 17:30:32
+ * @LastEditors: hunt
+ * @LastEditTime: 2020-09-07 17:41:35
+ */
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App () {
   console.log('1234');
-  var aaa = '12345';
+  const aaa = '12345';
+  console.log(aaa);
   return (
     <div className="App">
       <header className="App-header">
